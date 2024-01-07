@@ -4,7 +4,7 @@
 #include <stack>
 #include <cstdint>
 using namespace std;
-struct data{
+struct biodata{
     string nama,npm,predikat;
     char nilai_huruf;
     double uas,uts,quiz,absen,nilai_akhir;
@@ -17,7 +17,7 @@ void tampilsemuamatkul();
 void caripredikat();
 void tampildetail();
 void predikat(int h, int i);
-void tukarMahasiswa(data* mhs1, data* mhs2);
+void tukarMahasiswa(biodata* mhs1, biodata* mhs2);
 void tampiltukar();
 void cekquiz();
 int main(){
@@ -351,7 +351,7 @@ void tampiltukar(){
         main();
 }
 
-    void tukarMahasiswa(data* mhs1, data* mhs2) {
+    void tukarMahasiswa(biodata* mhs1, biodata* mhs2) {
 
   string temp = mhs1->nama;
   mhs1->nama = mhs2->nama;
