@@ -1,0 +1,14 @@
+(kode matkul)
+(jumlah pertemuan)
+(data mahasiswa)
+[
+-nama
+-npm
+-jumlah kehadiran
+-nilai quiz
+-nilai uts
+-nilai uas
+]
+(konfirmasi masukkan data lagi)//(y/n)
+
+//keterangan : jika ingin memasukkan data beberapa matkul cukup tambahkan angka 1 di line baru setelah line di atas
